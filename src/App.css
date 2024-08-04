@@ -1,0 +1,94 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #c1c1c1;
+}
+.head{
+  margin: 50px 50px;
+}
+.head h1{
+  text-decoration: underline;
+}
+.card{
+  height: 55vh;
+  width: 40vw;
+  background:#fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.card .image{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  /* overflow: hidden; */
+  position: absolute;
+  top: -65px;
+  left: 30px;
+}
+.image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card .name h4{
+  font-size: 32px;
+  color: #272525;
+}
+.card .job h6{
+  font-size: 12px;
+  color: #adacac;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.card .text{
+  width: 400px;
+  padding: 10px;
+  color: #272525;
+  word-break: break-all;
+}
+
+.FaQuoteLeft,
+.FaQuoteRight{
+  color: rgb(208, 168, 208);
+}
+
+.card .arrows{
+  display: flex;
+  margin: 20px 20px;
+  width: 50px;
+  justify-content: space-between;
+
+}
+.arrows button{
+  background: transparent;
+  border: none;
+  color: rgb(224, 203, 224);
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.card .buttons{
+  width: 120px;
+  height: 40px;
+  background: rgb(149, 55, 203);
+  border-radius: 5px;
+}
+.buttons button{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
